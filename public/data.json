@@ -1,0 +1,376 @@
+{
+    "suit": [
+        {
+            "id": 1,
+            "image": "images/black1.jpg",
+            "name": "Midnight Dapper Black Suit",
+            "color": "Black",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "11000",
+            "newPrice": "7000"
+        },
+        {
+            "id": 2,
+            "image": "images/black23-checked.jpg",
+            "name": "Shadow Elegance Black Suit",
+            "color": "Black",
+            "style": "suit",
+            "pattern": "checked",
+            "oldPrice": "19000",
+            "newPrice": "14000"
+        },
+        {
+            "id": 3,
+            "image": "images/black22-striped.jpg",
+            "name": "Noir Classic Black Suit",
+            "color": "Black",
+            "style": "suit",
+            "pattern": "striped",
+            "oldPrice": "13000",
+            "newPrice": "10000"
+        },
+        {
+            "id": 7,
+            "image": "images/blue2.jpg",
+            "name": "Periwinkle Prestige Blue Suit",
+            "color": "Blue",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "24000",
+            "newPrice": "22000"
+        },
+        {
+            "id": 8,
+            "image": "images/blue43-striped.jpg",
+            "name": "Steel Blue Stature Suit",
+            "color": "Blue",
+            "style": "suit",
+            "pattern": "stiped",
+            "oldPrice": "29000",
+            "newPrice": "26000"
+        },
+        {
+            "id": 12,
+            "image": "images/brown2-striped.jpg",
+            "name": "Old World Ochre Brown Suit",
+            "color": "Brown",
+            "style": "suit",
+            "pattern": "striped",
+            "oldPrice": "15500",
+            "newPrice": "14000"
+        },
+        {
+            "id": 13,
+            "image": "images/brown1.jpg",
+            "name": "Formal Farm Brown Suit",
+            "color": "Brown",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "17000",
+            "newPrice": "14000"
+        },
+        {
+            "id": 14,
+            "image": "images/brown22-checked.jpg",
+            "name": "Regal Russet Brown Suit",
+            "color": "Brown",
+            "style": "suit",
+            "pattern": "checked",
+            "oldPrice": "11500",
+            "newPrice": "10000"
+        },
+        {
+            "id": 17,
+            "image": "images/cream3.jpg",
+            "name": "Linen Luminary Cream Suit",
+            "color": "Cream",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "17500",
+            "newPrice": "14000"
+        },
+        {
+            "id": 18,
+            "image": "images/cream23-checked.jpg",
+            "name": "Buttercream Baronet Cream Suit",
+            "color": "Cream",
+            "style": "suit",
+            "pattern": "checked",
+            "oldPrice": "14000",
+            "newPrice": "10000"
+        },
+        {
+            "id": 19,
+            "image": "images/cream44-striped.jpg",
+            "name": "Oatmeal Oracle Cream Suit",
+            "color": "Cream",
+            "style": "suit",
+            "pattern": "striped",
+            "oldPrice": "27500",
+            "newPrice": "26000"
+        },
+        {
+            "id": 22,
+            "image": "images/gray1-solid.jpg",
+            "name": "Platinum Panache Gray Suit",
+            "color": "Gray",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "8000",
+            "newPrice": "7000"
+        },
+        {
+            "id": 23,
+            "image": "images/gray11-striped.jpg",
+            "name": "Gunmetal Grandeur Gray Suit",
+            "color": "Gray",
+            "style": "suit",
+            "pattern": "striped",
+            "oldPrice": "13000",
+            "newPrice": "10000"
+        },
+        {
+            "id": 25,
+            "image": "images/gray9-checked.jpg",
+            "name": "Flint Finery Gray Suit",
+            "color": "Gray",
+            "style": "suit",
+            "pattern": "checked",
+            "oldPrice": "28500",
+            "newPrice": "26000"
+        },
+        {
+            "id": 26,
+            "image": "images/red1.jpg",
+            "name": "Wine Wonder Red Suit",
+            "color": "Red",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "12000",
+            "newPrice": "10000"
+        },
+        {
+            "id": 28,
+            "image": "images/red4-checked.jpg",
+            "name": "Brick Baron Red Suit",
+            "color": "Red",
+            "style": "suit",
+            "pattern": "checked",
+            "oldPrice": "10500",
+            "newPrice": "5999"
+        },
+        {
+            "id": 30,
+            "image": "images/green6.jpg",
+            "name": "Emerald Elegance Green Suit",
+            "color": "Green",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "18500",
+            "newPrice": "14000"
+        },
+        {
+            "id": 34,
+            "image": "images/green2.jpg",
+            "name": "Army Aristocrat Green Suit",
+            "color": "Green",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "13500",
+            "newPrice": "10000"
+        },
+        {
+            "id": 32,
+            "image": "images/green9-checked.jpg",
+            "name": "Ivvy Icon Green Suit",
+            "color": "Green",
+            "style": "suit",
+            "pattern": "checked",
+            "oldPrice": "8500",
+            "newPrice": "4999"
+        },
+        {
+            "id": 35,
+            "image": "images/burgundy8.jpg",
+            "name": "Scarlet Swagger Burgundy Suit",
+            "color": "Burgundy",
+            "style": "suit",
+            "pattern": "solid",
+            "oldPrice": "17500",
+            "newPrice": "14000"
+        }
+    ],
+    "blazer": [
+        {
+            "id": 4,
+            "image": "images/black-bl-solid1.jpg",
+            "name": "Obsidian Style Black Blazer",
+            "color": "Black",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "24000",
+            "newPrice": "22000"
+        },
+        {
+            "id": 5,
+            "image": "images/black-bl-solid2.jpg",
+            "name": "Onyx Ensemble Black Blazer",
+            "color": "Black",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "18000",
+            "newPrice": "14000"
+        },
+        {
+            "id": 6,
+            "image": "images/black-bl-striped1.jpg",
+            "name": "Coal Couture Black Blazer",
+            "color": "Black",
+            "style": "blazer",
+            "pattern": "striped",
+            "oldPrice": "7500",
+            "newPrice": "7000"
+        },
+        {
+            "id": 10,
+            "image": "images/blue-bl-checked1.jpg",
+            "name": "Turquoise Triumph Blue Blazer",
+            "color": "Blue",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "12000",
+            "newPrice": "5000"
+        },
+        {
+            "id": 9,
+            "image": "images/blue-bl-solid1.jpg",
+            "name": "Royale Blue Regalia Blazer",
+            "color": "Blue",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "16000",
+            "newPrice": "14000"
+        },
+        {
+            "id": 11,
+            "image": "images/blue-bl-striped1.jpg",
+            "name": "Cornflower Couture Blue Blazer",
+            "color": "Blue",
+            "style": "blazer",
+            "pattern": "striped",
+            "oldPrice": "13500",
+            "newPrice": "10000"
+        },
+        {
+            "id": 15,
+            "image": "images/brown-bl-checked1.jpg",
+            "name": "Sauve Sable Brown Blazer",
+            "color": "Brown",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "8000",
+            "newPrice": "4000"
+        },
+        {
+            "id": 16,
+            "image": "images/cream-bl-solid1.jpg",
+            "name": "Biscuit Baron Cream Blazer",
+            "color": "Cream",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "12000",
+            "newPrice": "6000"
+        },
+        {
+            "id": 20,
+            "image": "images/cream-bl-checked1.jpg",
+            "name": "Wheat Warrior Cream Blazer",
+            "color": "Cream",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "12000",
+            "newPrice": "4000"
+        },
+        {
+            "id": 21,
+            "image": "images/gray-bl-solid1.jpg",
+            "name": "Stone Stature Gray Blazer",
+            "color": "Gray",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "24000",
+            "newPrice": "22000"
+        },
+        {
+            "id": 24,
+            "image": "images/gray-bl-checked1.jpg",
+            "name": "Titanium Tailoring Gray Blazer",
+            "color": "Gray",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "15500",
+            "newPrice": "14000"
+        },
+        {
+            "id": 27,
+            "image": "images/red-bl-solid1.jpg",
+            "name": "Blood Red Bespoke Blazer",
+            "color": "Red",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "9500",
+            "newPrice": "7000"
+        },
+        {
+            "id": 29,
+            "image": "images/red-bl-checked1.jpg",
+            "name": "Crimson Classic Red Blazer",
+            "color": "Red",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "30000",
+            "newPrice": "26000"
+        },
+        {
+            "id": 31,
+            "image": "images/green-bl-solid1.jpg",
+            "name": "Hunter Haute Green Blazer",
+            "color": "Green",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "11500",
+            "newPrice": "10000"
+        },
+        {
+            "id": 33,
+            "image": "images/green-bl-checked1.jpg",
+            "name": "Lime Luxury Green Blazer",
+            "color": "Green",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "17000",
+            "newPrice": "14000"
+        },
+        {
+            "id": 36,
+            "image": "images/burgundy-bl-solid1.jpg",
+            "name": "Sangria Sophistication Burgundy Blazer",
+            "color": "Burgundy",
+            "style": "blazer",
+            "pattern": "solid",
+            "oldPrice": "9000",
+            "newPrice": "8000"
+        },
+        {
+            "id": 37,
+            "image": "images/burgundy-bl-checked1.jpg",
+            "name": "Merlot Masterpiece Burgundy Blazer",
+            "color": "Burgundy",
+            "style": "blazer",
+            "pattern": "checked",
+            "oldPrice": "15500",
+            "newPrice": "14000"
+        }
+    ]
+}

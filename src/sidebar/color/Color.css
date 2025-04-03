@@ -1,0 +1,33 @@
+#colorContainer{
+    padding: 8px 16px 8px 0px;
+    border-bottom: 1px solid #262725;
+}
+.colorHead{
+    font-size: 16px;
+    font-weight: 600;
+}
+#colorContainer ul li{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    padding: 8px 16px 8px 0px;
+}
+#colorContainer ul input[type="radio"]{
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid #262725;
+    cursor: pointer;
+    background-color: white;
+}
+#colorContainer ul input[type="radio"]:hover{
+    background-color: gainsboro;
+}
+#colorContainer ul input[type="radio"]:checked{
+    border: 5px solid #262725;
+    background-color: gainsboro;
+}

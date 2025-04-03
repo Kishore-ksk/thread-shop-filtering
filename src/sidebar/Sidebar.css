@@ -1,0 +1,13 @@
+#sideContainer{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 96px;
+}
+.sideHead{
+    color: #262725;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 16px 16px 0px;
+    border-bottom: 1px solid #262725;
+}

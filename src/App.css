@@ -1,0 +1,7 @@
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+.prod-container{
+    width: 1350px;
+}
