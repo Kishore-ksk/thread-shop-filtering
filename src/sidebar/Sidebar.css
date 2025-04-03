@@ -1,13 +1,66 @@
-#sideContainer{
+#sideContainer {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 40px;
     margin-left: 96px;
+    transition: transform 0.3s ease-in-out;
 }
-.sideHead{
+
+
+/* Sidebar Heading */
+.sideHead {
     color: #262725;
     font-size: 20px;
     font-weight: 600;
     padding: 16px 16px 16px 0px;
     border-bottom: 1px solid #262725;
+}
+/* Button to toggle sidebar on small screens */
+.sidebarToggle {
+    display: none;
+    position: fixed;
+   bottom: 10px;
+    right: 10px;
+    background: #262725;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1100;
+}
+/* Hide sidebar on medium and small screens */
+@media (max-width: 1024px) {
+    .desktop-sidebar {
+        display: none;
+    }
+
+    .mobile-sidebar {
+        position: fixed;
+        top: 0;
+        left: -220px; /* Hide off-screen */
+        height: 100vh;
+        background: white;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        padding: 20px;
+        overflow-y: auto;
+        transition: left 0.3s ease-in-out;
+    }
+
+    /* Show sidebar when active */
+    .mobile-sidebar.active {
+        left: 0;
+    }
+    .sidebarToggle {
+        display: block;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .mobile-sidebar{
+        display: none;
+    }
 }

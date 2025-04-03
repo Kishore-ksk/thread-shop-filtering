@@ -1,8 +1,10 @@
 #productContainer{
     position: relative;
-    width: 256px;
-    height: 500px;
-    margin: 40px;
+    min-width: 120px;
+    width: 15vw;
+    max-height: 380px;
+    min-height: 380px;
+    margin: 10px;
     float: left;
     transition: transform 0.3s ease-in ;
 }
@@ -12,8 +14,8 @@
     background-color: white;
 }
 #prodImage{
-    width: 256px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
     background-color: aliceblue;
     overflow: hidden;
     object-fit: cover;
@@ -39,6 +41,7 @@
     color: white;
     font-weight: 700;
     cursor: pointer;
+    font-size: clamp(12px, 1.4vw, 14px);
     /* transition: all 0.3s ease-in-out; */
 }
 #prodImage:hover~#btnContainer{
@@ -46,12 +49,14 @@
 }
 #productContainer p{
     padding: 5px 5px;
+    font-size: clamp(12px, 1.5vw, 14px);
 }
 #productContainer p span{
     margin-left: 5px;
     font-weight: 600;
+    font-size: clamp(12px, 1.6vw, 16px);
 }
 #productContainer p del{
-    font-size: 14px;
+    font-size: clamp(10px, 1.2vw, 12px);
     
 }

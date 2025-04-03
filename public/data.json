@@ -3,7 +3,7 @@
         {
             "id": 1,
             "image": "images/black1.jpg",
-            "name": "Midnight Dapper Black Suit",
+            "name": "Midnight Dapper Suit",
             "color": "Black",
             "style": "suit",
             "pattern": "solid",
@@ -13,7 +13,7 @@
         {
             "id": 2,
             "image": "images/black23-checked.jpg",
-            "name": "Shadow Elegance Black Suit",
+            "name": "Shadow Elegance Suit",
             "color": "Black",
             "style": "suit",
             "pattern": "checked",
@@ -23,7 +23,7 @@
         {
             "id": 3,
             "image": "images/black22-striped.jpg",
-            "name": "Noir Classic Black Suit",
+            "name": "Noir Classic Suit",
             "color": "Black",
             "style": "suit",
             "pattern": "striped",
@@ -33,7 +33,7 @@
         {
             "id": 7,
             "image": "images/blue2.jpg",
-            "name": "Periwinkle Prestige Blue Suit",
+            "name": "Periwinkle Prestige Suit",
             "color": "Blue",
             "style": "suit",
             "pattern": "solid",
@@ -53,7 +53,7 @@
         {
             "id": 12,
             "image": "images/brown2-striped.jpg",
-            "name": "Old World Ochre Brown Suit",
+            "name": "Old World Ochre Suit",
             "color": "Brown",
             "style": "suit",
             "pattern": "striped",
@@ -63,7 +63,7 @@
         {
             "id": 13,
             "image": "images/brown1.jpg",
-            "name": "Formal Farm Brown Suit",
+            "name": "Formal Farm Suit",
             "color": "Brown",
             "style": "suit",
             "pattern": "solid",
@@ -73,7 +73,7 @@
         {
             "id": 14,
             "image": "images/brown22-checked.jpg",
-            "name": "Regal Russet Brown Suit",
+            "name": "Regal Russet Suit",
             "color": "Brown",
             "style": "suit",
             "pattern": "checked",
@@ -83,7 +83,7 @@
         {
             "id": 17,
             "image": "images/cream3.jpg",
-            "name": "Linen Luminary Cream Suit",
+            "name": "Linen Luminary Suit",
             "color": "Cream",
             "style": "suit",
             "pattern": "solid",
@@ -93,7 +93,7 @@
         {
             "id": 18,
             "image": "images/cream23-checked.jpg",
-            "name": "Buttercream Baronet Cream Suit",
+            "name": "Buttercream Baronet Suit",
             "color": "Cream",
             "style": "suit",
             "pattern": "checked",
@@ -103,7 +103,7 @@
         {
             "id": 19,
             "image": "images/cream44-striped.jpg",
-            "name": "Oatmeal Oracle Cream Suit",
+            "name": "Oatmeal Oracle Suit",
             "color": "Cream",
             "style": "suit",
             "pattern": "striped",
@@ -113,7 +113,7 @@
         {
             "id": 22,
             "image": "images/gray1-solid.jpg",
-            "name": "Platinum Panache Gray Suit",
+            "name": "Platinum Panache Suit",
             "color": "Gray",
             "style": "suit",
             "pattern": "solid",
@@ -123,7 +123,7 @@
         {
             "id": 23,
             "image": "images/gray11-striped.jpg",
-            "name": "Gunmetal Grandeur Gray Suit",
+            "name": "Gunmetal Grandeur Suit",
             "color": "Gray",
             "style": "suit",
             "pattern": "striped",
@@ -133,7 +133,7 @@
         {
             "id": 25,
             "image": "images/gray9-checked.jpg",
-            "name": "Flint Finery Gray Suit",
+            "name": "Flint Finery Suit",
             "color": "Gray",
             "style": "suit",
             "pattern": "checked",
@@ -143,7 +143,7 @@
         {
             "id": 26,
             "image": "images/red1.jpg",
-            "name": "Wine Wonder Red Suit",
+            "name": "Wine Wonder Suit",
             "color": "Red",
             "style": "suit",
             "pattern": "solid",
@@ -153,7 +153,7 @@
         {
             "id": 28,
             "image": "images/red4-checked.jpg",
-            "name": "Brick Baron Red Suit",
+            "name": "Brick Baron Suit",
             "color": "Red",
             "style": "suit",
             "pattern": "checked",
@@ -163,7 +163,7 @@
         {
             "id": 30,
             "image": "images/green6.jpg",
-            "name": "Emerald Elegance Green Suit",
+            "name": "Emerald Elegance Suit",
             "color": "Green",
             "style": "suit",
             "pattern": "solid",
@@ -173,7 +173,7 @@
         {
             "id": 34,
             "image": "images/green2.jpg",
-            "name": "Army Aristocrat Green Suit",
+            "name": "Army Aristocrat Suit",
             "color": "Green",
             "style": "suit",
             "pattern": "solid",
@@ -183,7 +183,7 @@
         {
             "id": 32,
             "image": "images/green9-checked.jpg",
-            "name": "Ivvy Icon Green Suit",
+            "name": "Ivvy Icon Suit",
             "color": "Green",
             "style": "suit",
             "pattern": "checked",
@@ -193,7 +193,7 @@
         {
             "id": 35,
             "image": "images/burgundy8.jpg",
-            "name": "Scarlet Swagger Burgundy Suit",
+            "name": "Scarlet Swagger Suit",
             "color": "Burgundy",
             "style": "suit",
             "pattern": "solid",
@@ -205,7 +205,7 @@
         {
             "id": 4,
             "image": "images/black-bl-solid1.jpg",
-            "name": "Obsidian Style Black Blazer",
+            "name": "Obsidian Style Blazer",
             "color": "Black",
             "style": "blazer",
             "pattern": "solid",
@@ -215,7 +215,7 @@
         {
             "id": 5,
             "image": "images/black-bl-solid2.jpg",
-            "name": "Onyx Ensemble Black Blazer",
+            "name": "Onyx Ensemble Blazer",
             "color": "Black",
             "style": "blazer",
             "pattern": "solid",
@@ -225,7 +225,7 @@
         {
             "id": 6,
             "image": "images/black-bl-striped1.jpg",
-            "name": "Coal Couture Black Blazer",
+            "name": "Coal Couture Blazer",
             "color": "Black",
             "style": "blazer",
             "pattern": "striped",
@@ -235,7 +235,7 @@
         {
             "id": 10,
             "image": "images/blue-bl-checked1.jpg",
-            "name": "Turquoise Triumph Blue Blazer",
+            "name": "Turquoise Triumph Blazer",
             "color": "Blue",
             "style": "blazer",
             "pattern": "checked",
@@ -255,7 +255,7 @@
         {
             "id": 11,
             "image": "images/blue-bl-striped1.jpg",
-            "name": "Cornflower Couture Blue Blazer",
+            "name": "Cornflower Couture Blazer",
             "color": "Blue",
             "style": "blazer",
             "pattern": "striped",
@@ -265,7 +265,7 @@
         {
             "id": 15,
             "image": "images/brown-bl-checked1.jpg",
-            "name": "Sauve Sable Brown Blazer",
+            "name": "Sauve Sable Blazer",
             "color": "Brown",
             "style": "blazer",
             "pattern": "checked",
@@ -275,7 +275,7 @@
         {
             "id": 16,
             "image": "images/cream-bl-solid1.jpg",
-            "name": "Biscuit Baron Cream Blazer",
+            "name": "Biscuit Baron Blazer",
             "color": "Cream",
             "style": "blazer",
             "pattern": "solid",
@@ -285,7 +285,7 @@
         {
             "id": 20,
             "image": "images/cream-bl-checked1.jpg",
-            "name": "Wheat Warrior Cream Blazer",
+            "name": "Wheat Warrior Blazer",
             "color": "Cream",
             "style": "blazer",
             "pattern": "checked",
@@ -295,7 +295,7 @@
         {
             "id": 21,
             "image": "images/gray-bl-solid1.jpg",
-            "name": "Stone Stature Gray Blazer",
+            "name": "Stone Stature Blazer",
             "color": "Gray",
             "style": "blazer",
             "pattern": "solid",
@@ -305,7 +305,7 @@
         {
             "id": 24,
             "image": "images/gray-bl-checked1.jpg",
-            "name": "Titanium Tailoring Gray Blazer",
+            "name": "Titanium Tailoring Blazer",
             "color": "Gray",
             "style": "blazer",
             "pattern": "checked",
@@ -315,7 +315,7 @@
         {
             "id": 27,
             "image": "images/red-bl-solid1.jpg",
-            "name": "Blood Red Bespoke Blazer",
+            "name": "Blood Bespoke Blazer",
             "color": "Red",
             "style": "blazer",
             "pattern": "solid",
@@ -325,7 +325,7 @@
         {
             "id": 29,
             "image": "images/red-bl-checked1.jpg",
-            "name": "Crimson Classic Red Blazer",
+            "name": "Crimson Classic Blazer",
             "color": "Red",
             "style": "blazer",
             "pattern": "checked",
@@ -335,7 +335,7 @@
         {
             "id": 31,
             "image": "images/green-bl-solid1.jpg",
-            "name": "Hunter Haute Green Blazer",
+            "name": "Hunter Haute Blazer",
             "color": "Green",
             "style": "blazer",
             "pattern": "solid",
@@ -345,7 +345,7 @@
         {
             "id": 33,
             "image": "images/green-bl-checked1.jpg",
-            "name": "Lime Luxury Green Blazer",
+            "name": "Lime Luxury Blazer",
             "color": "Green",
             "style": "blazer",
             "pattern": "checked",
@@ -355,7 +355,7 @@
         {
             "id": 36,
             "image": "images/burgundy-bl-solid1.jpg",
-            "name": "Sangria Sophistication Burgundy Blazer",
+            "name": "Sangria Sophistication Blazer",
             "color": "Burgundy",
             "style": "blazer",
             "pattern": "solid",
@@ -365,7 +365,7 @@
         {
             "id": 37,
             "image": "images/burgundy-bl-checked1.jpg",
-            "name": "Merlot Masterpiece Burgundy Blazer",
+            "name": "Merlot Masterpiece Blazer",
             "color": "Burgundy",
             "style": "blazer",
             "pattern": "checked",
