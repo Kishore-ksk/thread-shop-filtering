@@ -1,9 +1,10 @@
+/* Header Container */
 #container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #262725;
     width: 100%;
     position: fixed;
     top: 0;
@@ -12,48 +13,68 @@
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Content Padding (To Prevent Overlapping with Fixed Header) */
 .content {
-    padding-top: 80px; 
+    padding-top: 80px;
 }
-.brand{
+
+/* Brand (Logo & Name) */
+.brand {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
-.brand p{
-   margin-left: 10px;
-   font-size: 30px;
-   font-weight: 500;
-   letter-spacing: 4px;
+
+.brand p {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    transition: color 0.3s ease-in-out;
 }
-.logo{
+
+.logo {
     width: 60px;
     height: 80px;
+    transition: transform 0.3s ease-in-out;
 }
-.man{
-    width: 40px;
-    height: 40px;
-    border: none;
-    border-radius: 50%;
+
+/* Brand Hover Effect */
+.brand:hover p {
+    color: #b48a6d;
 }
-#navContainer{
-   
+
+.brand:hover .logo {
+    transform: rotate(-10deg);
+}
+
+/* Desktop Navigation */
+.desktop-nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
+
 .nav {
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    position: relative;
-    
+    gap: 40px;
 }
-.nav li{
-    margin-right: 40px;
+
+.nav li {
+    list-style: none;
 }
-.nav a::before {
+
+.nav a {
+    text-decoration: none;
     color: #262725;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Underline Animation */
+.nav a::before {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -64,47 +85,176 @@
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
-  }
+}
 
 .nav a:hover::before {
     visibility: visible;
-    transform:scaleX(1);
-  }
-.nav a.selected{
-   font-weight: 700;
-   text-decoration: underline;
-   text-underline-offset: 4px;
-  }
-.profile{
+    transform: scaleX(1);
+}
+
+.nav a.selected {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/* Desktop Profile Icons */
+.desktop-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.desktop-profile button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 22px;
+    color: #262725;
+    transition: color 0.3s ease-in-out;
+}
+
+.desktop-profile button:hover {
+    color: #b48a6d;
+}
+
+/* Search Container */
+.search-container {
+    position: relative;
     display: flex;
     align-items: center;
 }
-.profile button{
+
+/* Search Button */
+.search-btn {
+    font-size: 22px;
     border: none;
-    background-color: transparent;
+    background: none;
+    cursor: pointer;
+    color: #262725;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.search-btn.rotate {
+    transform: rotate(360deg);
+    color: #b48a6d;
+}
+
+/* Search Input (Hidden by Default) */
+.search-input {
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    transition: width 0.4s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+/* Active Input - Expanding Animation */
+.search-input.active {
+    width: 220px;
+    border-bottom: 2px solid #b48a6d;
+    padding-left: 10px;
+}
+
+/* Hamburger Button (Hidden by Default) */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #262725;
+}
+
+/* Mobile Menu (Hidden by Default) */
+#mobileMenu {
+    display: none;
+}
+
+/* Mobile Menu (Active) */
+#mobileMenu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 102px;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    animation: slideDown 0.3s ease-in-out;
+}
+
+#mobileMenu .nav{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#mobileMenu .profile{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.menu-search-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/* Mobile Profile Icons */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile button {
+    border: none;
+    background: none;
     cursor: pointer;
     font-size: 24px;
     color: #262725;
+    transition: color 0.3s ease-in-out;
 }
-.profile li{
-    margin-left: 40px;
+
+.profile button:hover {
+    color: #b48a6d;
 }
-#search {
-   display: none;
-}
-input[type="text"] {
-    width: 340px;
-    height: 40px;
-    outline: none;
-    border: 1px solid #4A3F37;
-    box-shadow: 3px solid #bbb;
-    text-indent: 15px;
-    border-radius: 50px;
-    margin-right: 40px;
-    margin-bottom: 10px;
-    
+/* Responsive for Medium & Small Screens */
+@media (max-width: 1024px) {
+    .desktop-nav, .desktop-profile {
+        display: none;
     }
-.searchBtn{
-    position: absolute;
-    right: 0px;
+
+    .hamburger {
+        display: block;
+    }
+    .brand-name{
+        display: none;
+    }
+}
+
+/* Close Mobile Menu on Larger Screens */
+@media (min-width: 1025px) {
+    #mobileMenu.active {
+        display: none;
+    }
+}
+
+/* Animation */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
