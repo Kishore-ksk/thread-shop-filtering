@@ -1,50 +1,123 @@
-#banner{
-    width: 1600px;
-    height: 500px;
+#banner {
+    width: 100%;
+    max-width: 1600px;
+    min-height: 400px;
     background-color: bisque;
     border-radius: 8px;
     margin: 0 auto;
     margin-top: 20px;
     background-image: url(../images/banner4.jpg);
-    background-position: 20px;
-    background-size:cover;
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
+    text-align: center;
 }
-.bannerContent{ 
-    top: 50%;
+
+.bannerContent { 
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    background-color: rgba(38,39,27, 0.7);
-    padding: 16px 0px;
-    
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(38, 39, 27, 0.7);
+    padding: 16px;
+    border-radius: 8px;
 }
-.bannerContent h1{
-    font-size: 40px;
-    letter-spacing: 6px;
+
+.bannerContent h1 {
+    font-size: 3vw;
+    letter-spacing: 3px;
 }
-.bannerContent p{
-    font-size: 24px;
+
+.bannerContent p {
+    font-size: 1.5vw;
+    margin-top: 10px;
 }
-.bannerBtn{
+
+.bannerBtn {
     border: none;
     border-radius: 6px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 1.2vw;
     font-weight: 600;
     color: #b48a6d;
     border: 2px solid #b48a6d;
     cursor: pointer;
     background-color: transparent;
+    transition: all 0.3s ease-in-out;
 }
-.bannerBtn:hover{
+
+.bannerBtn:hover {
     color: white;
     background-color: #b48a6d;
-    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    #banner {
+        min-height: 350px;
+    }
+
+    .bannerContent h1 {
+        font-size: 28px;
+    }
+
+    .bannerContent p {
+        font-size: 18px;
+    }
+
+    .bannerBtn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    #banner {
+        min-height: 300px;
+    }
+
+    .bannerContent h1 {
+        font-size: 24px;
+    }
+
+    .bannerContent p {
+        font-size: 16px;
+    }
+
+    .bannerBtn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #banner {
+        min-height: 250px;
+        padding: 10px;
+    }
+
+    .bannerContent {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .bannerContent h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    .bannerContent p {
+        font-size: 14px;
+    }
+
+    .bannerBtn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
 }
