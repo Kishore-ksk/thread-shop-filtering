@@ -5,7 +5,7 @@ import { FaRegHeart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { GrCart } from "react-icons/gr";
 import { VscAccount } from "react-icons/vsc";
 
-export default function Header() {
+export default function Header({ query, handleInputChange }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const searchRef = useRef(null);
@@ -60,7 +60,13 @@ export default function Header() {
           <button className={`search-btn ${searchOpen ? "rotate" : ""}`} onClick={toggleSearch}>
             <FaSearch />
           </button>
-          <input type="text" className={`search-input ${searchOpen ? "active" : ""}`} placeholder="Search..." />
+          <input
+            type="text"
+            className={`search-input ${searchOpen ? "active" : ""}`}
+            placeholder="Search..."
+            value={query}
+            onChange={handleInputChange}
+          />
         </div>
 
         {/* Hamburger Menu Button (Visible on Small Screens) */}

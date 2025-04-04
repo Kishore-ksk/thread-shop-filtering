@@ -2,10 +2,3 @@
     display: flex;
     justify-content: flex-start;
 }
-.prod-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
-    gap: 20px; /* Space between cards */
-    justify-content: center;
-    padding: 20px;
-}
